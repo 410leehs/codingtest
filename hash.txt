@@ -19,3 +19,27 @@ String answer = "";
         return answer;
     }
 }
+
+1. git 다운https://git-scm.com/download/win
+2. 깃허브 계정 만들고 로그인 그 후 your repositories 다음 New 클릭
+3. create repository 클릭하면 저장소 생성
+4..git로 끝나는 주소 복사
+5. 저장 원하는 폴더 생성(나는 cdtest)
+5.1 cmd키고 로컬저장소 경로 지정해준다. cd명령어로 이동(change directory)
+6.cd C:\Users\lee\OneDrive - 숭실대학교 - Soongsil University\cdtest
+7. 원하는 디렉토리에 간다음 git clone 원격저장소 주소 입력해줌
+git clone https://github.com/410leehs/codingtest.git
+해당경로로 가면 codingtest폴더 생성됨
+8. 이제 폴더안에 텍스트 파일(아무거나 만듬)을 저장한다 (나는 hash.txt)
+git add hash.txt -> 레퍼지토리에 커밋(저장)할 파일을 선택하는 것
+그 후  git status를 쳐보고 hash.txt가 빨간 글씨면 아직 선택 안된 것, 초록 글씨면 선택된 것
+9. git commit -m "Add hash.txt" 이라고 커밋메시지를 적고 커밋한다
+10. 로컬 저장소와 깃허브 원격저장소(온라인)을 연결한다
+git remote add origin 자기 레퍼지토리 주소
+11. git remote -v : 연결확인
+12. 마지막으로 푸쉬하면 로컬저장소의 파일이 원격저장소로 올라간다.
+git push 
+
+
+git --version : 깃 버젼확인
+git init은 현재 디렉토리를 깃 리파지토리로 초기화한다. 이 디렉토리 아래에 .git 이라는 디렉토리를 만들어서 추가 하는건데, 자세한건 나중에 알아도 된다. 이 명령어를 쓰면 git에게, "자 이제부터 이 디렉토리는 깃 리파지토리야" 라고 앞서 설치한 git에게 알려주는 과정이다.
