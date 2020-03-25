@@ -25,6 +25,7 @@ String answer = "";
 3. create repository 클릭하면 저장소 생성
 4..git로 끝나는 주소 복사
 5. 저장 원하는 폴더 생성(나는 cdtest)
+5.0 cmd에 git init로 깃 시작
 5.1 cmd키고 로컬저장소 경로 지정해준다. cd명령어로 이동(change directory)
 6.cd C:\Users\lee\OneDrive - 숭실대학교 - Soongsil University\cdtest
 7. 원하는 디렉토리에 간다음 git clone 원격저장소 주소 입력해줌
