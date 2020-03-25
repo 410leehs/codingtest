@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;MemberHashMap.java&apos; to &apos;0227collection프레임워크/src/collection&apos;&#x0D;&#x0A;- Original project: &apos;0228컬렉션 프레임워크&apos;&#x0D;&#x0A;- Destination element: &apos;0227collection프레임워크/src/collection&apos;&#x0D;&#x0A;- Original element: &apos;map.hashmap.MemberHashMap.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=0227collection프레임워크/src&lt;collection" element1="/src&lt;map.hashmap{MemberHashMap.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1582854227186" units="1" version="1.0"/>
+</session>
